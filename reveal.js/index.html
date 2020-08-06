@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/aswLecture.css" id="theme">
+        
+        <!-- Stylesheet for reveal-a11y accessibility plugin -->
+        <link rel="stylesheet" href="plugin/accessibility/helper.css">
+        
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                  <div class='footer'>
+                    CSCI1800 Module: 0
+                    </div>
+				<section data-background="img/IMG_4527.jpeg" data-background-size="cover"><h2>Welcome to CSCI1800:<br> Computing and Society in History!</h2>
+					
+						Dr. Aaron Sidney Wright <br> <a href="mailto:asw@dal.ca">asw@dal.ca</a>
+					
+                    </section>
+                <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
+                <section data-markdown="markdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+                
+<section data-markdown data-separator="---">
+    <textarea data-template>
+        ## Slide 2
+        A paragraph with some text" --" "and a [link](http://hakim.se).
+        ---
+        ## Slide 3
+        ---
+        ## Slide 4
+    </textarea>
+                </section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+        <script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+        <script src="plugin/search/search.js"></script>
+        <script src="plugin/zoom/zoom.js"></script>        
+        <script src="plugin/math/math.js"></script> 
+        <script>
+// More info https://github.com/hakimel/reveal.js#configuration
+            //Initialize for reveal-a11y accessibility plugin
+            Reveal.initialize({
+	           dependencies: [
+                { src: 'plugin/accessibility/helper.js', async: true, condition: function() { 
+                	return !!document.body.classList; 
+                } 
+            }
+               ],
+              //  });
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			//Reveal.initialize({
+                markdown: {
+                    smartypants: true,
+                    smartLists: true
+                },
+                slideNumber: true,
+				hash: true,
+                center: false,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, 
+                    RevealHighlight, RevealNotes, RevealMath, RevealSearch, RevealZoom ]
+			});
+		</script>
+	</body>
+</html>
