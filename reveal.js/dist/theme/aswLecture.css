@@ -111,9 +111,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal strong,
 .reveal b {
-  font-weight: bold; }
+  font-weight: 600; }
 
 .reveal em {
+  font-family: EBGaramondItalVar, inherit;
   font-style: italic; }
 
 .reveal ol,
