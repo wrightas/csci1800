@@ -96,6 +96,7 @@
     }
   },
   "dependencies": {
+    "websocket-extensions": "^0.1.4",
     "yargs-parser": "^18.1.3"
   }
 }
