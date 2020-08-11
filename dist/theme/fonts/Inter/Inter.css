@@ -4,16 +4,19 @@
  font-weight: 100 950;
  font-stretch: 75% 125%;
  font-style: oblique 0deg 20deg;
+ font-display: swap;
 }
 @font-face {
     font-family: 'InterReg';
     src: url('static/Inter-Light-slnt=0.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'InterBold';
     src: url('static/Inter-SemiBold-slnt=0.ttf') format('truetype');
     font-weight: bold;
     font-style: bold;
+    font-display: swap;
 }

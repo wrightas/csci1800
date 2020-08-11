@@ -1,29 +1,24 @@
 <!doctype html>
-<html>
+<html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
 		<title>CSCI1800 Test</title>
-
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/aswLecture.css" id="theme">
-        
         <!-- Stylesheet for reveal-a11y accessibility plugin -->
         <link rel="stylesheet" href="plugin/accessibility/helper.css">
-        
 		<!-- Theme used for syntax highlighted code -->
+<!--
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+-->
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-                  <div class='footer'>
-                    CSCI1800 Module: 0
-                    </div>
-                <section data-markdown data-separator="---">
+                <section data-markdown data-separator="\n---">
   <script type="text/template">
   <!-- .slide: data-background="./img/IMG_4527.jpeg" -->
     ## Welcome to CSCI1800: 
@@ -34,7 +29,7 @@
         <img src="img/DALFullMark-Blk.png" width="326px" alt="Dalhousie University logo">
   </script>
 </section>
-            <section data-markdown data-separator="---">
+            <section data-markdown data-separator="\n---">
        <textarea data-template>
         ## Slide 2
         A paragraph with some text" --" "and a [link](http://hakim.se).
@@ -52,7 +47,7 @@
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
         <script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
+<!--		<script src="plugin/highlight/highlight.js"></script>-->
         <script src="plugin/search/search.js"></script>
         <script src="plugin/zoom/zoom.js"></script>        
         <script src="plugin/math/math.js"></script> 
@@ -80,7 +75,8 @@
                 center: false,
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, 
-                    RevealHighlight, RevealNotes, RevealMath, RevealSearch, RevealZoom ]
+//                    RevealHighlight, 
+                          RevealNotes, RevealMath, RevealSearch, RevealZoom ]
 			});
 		</script>
 	</body>

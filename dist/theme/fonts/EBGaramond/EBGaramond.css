@@ -2,6 +2,7 @@
  font-family: 'EBGaramondVar';
  src: url('EBGaramond-VariableFont_wght.ttf') format('truetype');
  font-weight: 100 950;
+ font-display: swap;
 }
 @font-face {
  font-family: 'EBGaramondItalVar';
@@ -13,16 +14,19 @@
     src: url('static/EBGaramond-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'EBGaramondRegBold';
     src: url('static/EBGaramond-SemiBold.ttf') format('truetype');
     font-weight: bold;
     font-style: bold;
+    font-display: swap;
 }
 @font-face {
     font-family: 'EBGaramondRegItal';
     src: url('static/EBGaramond-Italic.ttf') format('truetype');
     font-weight: italic;
     font-style: italic;
+    font-display: swap;
 }

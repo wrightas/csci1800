@@ -1,5 +1,5 @@
 /**
- * aswLecture theme fro reveal.js. By Aaron Sidney Wright, 2020 
+ * aswLecture theme from reveal.js. By Aaron Sidney Wright, 2020 
  *
  * Adapted from: Black theme for reveal.js. This is the opposite of the 'white' theme. By Hakim El Hattab, http://hakim.se
  */
@@ -14,7 +14,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 :root {
   --background-color: #191919;
   --main-font: EBGaramondVar, Garamond, Times, serif;
-  --main-font-size: 38px;
+  --main-font-size: 24px;
   --main-color: #fff;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
@@ -42,7 +42,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal {
   font-family: EBGaramondVar, Garamond, Times, serif;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 400;
   color: #fff; }
 

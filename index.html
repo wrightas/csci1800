@@ -97,7 +97,8 @@
             var str = file.name;
             if ( str.search("html") != -1 ) {
           htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
-        }}
+        }
+        }
         htmlString += '</ul>';
         document.getElementsByName('m1list')[0].innerHTML = htmlString;
       })()
