@@ -1173,6 +1173,17 @@ img {
   max-width: 100%;
   height: auto; }
 
+.img-responsive-md {
+  display: block;
+  max-width: 75%;
+  height: auto; }
+
+.img-responsive-rot {
+  display: block;
+  max-width: 75%;
+  height: auto;
+  transform: rotate(90deg); }
+
 .img-rounded {
   border-radius: 6px; }
 
