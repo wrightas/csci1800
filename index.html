@@ -64,15 +64,24 @@
         <img src="img/Hopper1952Solving.png" class="img-responsive" style="max-width: 75%"  alt="Grace Hopper's diagram of a computer and a computer solving a problem, from 1952.">
             <figcaption class="figure-caption text-center">Figure 4, "The Education of the Computer," from from Grace Hopper. 1952. “The Education of a Computer.” In <em>Proceedings of the 1952 ACM National Meeting </em>(Pittsburgh), 243–249. ACM ’52. New York: ACM. <a rel="external" href="https://doi.org/10.1145/609784">DOI</a>.</figcaption>
             </figure>
-        <p>CSCI1800 is divided into <em>modules</em>. After the one-week &ldquo;Module 0: Course Introduction,&rdquo; the remaining modules last three weeks. Each module requires students to watch video slide presentations, complete the assigned readings, and complete a set of writing assignments leading up to a short essay. See the course syllabus for more details.</p>
+        <p>CSCI1800 is divided into <em>units</em>. After the one-week &ldquo;Unit 0: Course Introduction,&rdquo; the remaining units last three weeks. Each unit requires students to watch video slide presentations, complete the assigned readings, and complete a set of writing assignments leading up to a short essay. See the course syllabus for more details.</p>
+    <noscript>JavaScript is required to view the list of slides from this page. JavaScript is also required to view slides themselves. To view the directory of slides for each unit, follow these links:
+        <ul class="list-unstyled">
+            <li><a href="Unit0/">Unit 0</a></li>
+            <li><a href="Unit1/">Unit 1</a></li>
+            <li><a href="Unit2/">Unit 2</a></li>
+            <li><a href="Unit3/">Unit 3</a></li>
+            <li><a href="Unit4/">Unit 4</a></li>
+        </ul>
+        </noscript>
     <section>
-    <h2>Module 0: Course Introduction</h2>
+    <h2>Unit 0: Course Introduction</h2>
     <p>List of slides in alphabetical order:</p>
     <div name="m0list"></div>
     
     <script>
       (async () => {
-        const response = await fetch('https://api.github.com/repos/wrightas/csci1800/contents/Module0');
+        const response = await fetch('https://api.github.com/repos/wrightas/csci1800/contents/Unit0');
         let data = [];
         data = await response.json();
         let htmlString = '<ul>';
@@ -87,13 +96,13 @@
     </script>
     </section>
 <section>
-    <h2>Module 1</h2>
+    <h2>Unit 1</h2>
     <p>List of slides in alphabetical order:</p>
     <div name="m1list"></div>
 
     <script>
       (async () => {
-        const response = await fetch('https://api.github.com/repos/wrightas/csci1800/contents/Module1');
+        const response = await fetch('https://api.github.com/repos/wrightas/csci1800/contents/Unit1');
         let data = []; 
         data = await response.json();
         let htmlString = '<ul>';
@@ -109,12 +118,12 @@
     </script>
     </section>
 <section>
-    <h2>Module 2</h2>
+    <h2>Unit 2</h2>
         <p>List of slides in alphabetical order:</p>
     <div name="m2list"></div>
     <script>
       (async () => {
-        const response = await fetch('https://api.github.com/repos/wrightas/csci1800/contents/Module2');
+        const response = await fetch('https://api.github.com/repos/wrightas/csci1800/contents/Unit2');
         let data = [];
         data = await response.json();
         let htmlString = '<ul>';
@@ -129,12 +138,12 @@
     </script>
     </section>
 <section>
-    <h2>Module 3</h2>
+    <h2>Unit 3</h2>
         <p>List of slides in alphabetical order:</p>
     <div name="m3list"></div>
     <script>
       (async () => {
-        const response = await fetch('https://api.github.com/repos/wrightas/csci1800/contents/Module3');
+        const response = await fetch('https://api.github.com/repos/wrightas/csci1800/contents/Unit3');
         let data = [];
         data = await response.json();
         let htmlString = '<ul>';
@@ -149,12 +158,12 @@
     </script>
     </section>
 <section>
-    <h2>Module 4</h2>
+    <h2>Unit 4</h2>
         <p>List of slides in alphabetical order:</p>
     <div name="m4list"></div>
     <script>
       (async () => {
-        const response = await fetch('https://api.github.com/repos/wrightas/csci1800/contents/Module4');
+        const response = await fetch('https://api.github.com/repos/wrightas/csci1800/contents/Unit4');
         let data = [];
         data = await response.json();
         let htmlString = '<ul>';
