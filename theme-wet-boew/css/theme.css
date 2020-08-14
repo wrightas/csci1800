@@ -1138,7 +1138,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "InterVar", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4375;
   color: #333333;
@@ -1162,8 +1162,10 @@ a {
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
 
+/*
 figure {
   margin: 0; }
+*/
 
 img {
   vertical-align: middle; }
@@ -1180,7 +1182,7 @@ img {
 
 .img-responsive-rot {
   display: block;
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
   transform: rotate(90deg); }
 
@@ -1432,12 +1434,20 @@ a.bg-danger:focus {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 11.5px; }
+  margin-bottom: 11.5px; 
+  list-style: outside disc; /* fix bullets + floats */
+  margin-left: 1em;}
   ul ul,
   ul ol,
   ol ul,
   ol ol {
     margin-bottom: 0; }
+
+ul li { /* fix bullets + floats */
+    position: relative;
+    left: 1em;
+    padding-right: 1em;    
+}
 
 .list-unstyled {
   padding-left: 0;
@@ -5253,7 +5263,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "InterVar", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.4375;
@@ -5358,7 +5368,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "InterVar", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.4375;
