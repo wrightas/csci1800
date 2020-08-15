@@ -1,4 +1,23 @@
-# Markdown Demo
+## Unit N Overview
+- **Watch:** Welcome to Unit N 
+- **Read:** the course syllabus section on Unit N 
+    - Understand the essay question(s)
+    - Understand the assignments
+- **Plan:** with your team. How will you make your essay resources?
+- **Active reading:** Chapters from Campbell-Kelly et al. (2014)
+- **Create:** Make resources for essay writing.
+    - Notes / Summaries / Outlines
+- **Ask:** Questions about the material
+   - In BrightSpace Discussions for your TA and / or for Dr. Wright
+   - In weekly video office hours with Dr. Wright 
+- **Submit:** Short writing exercise to your TA on BrightSpace
+
+
+## Slide 3
+
+
+
+## Slidee 4
 
 
 
