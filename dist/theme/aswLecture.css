@@ -91,7 +91,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     background-color: hsl(0, 0%, 30%);
     border-style: solid;
     border-width: 5px; 
-    border-color: hsl(0, 0%, 30%);
+    border-color: 	hsl(37, 100%, 42%);
 }
 
 .reveal h3 {
@@ -116,7 +116,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
 .reveal video,
-.reveal iframe {
+.reveal iframe,
+.reveal figure{
   max-width: 95%;
   max-height: 95%; }
 
