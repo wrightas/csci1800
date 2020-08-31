@@ -87,6 +87,13 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal h2 {
   font-size: 1.6em; }
 
+#title {
+    background-color: hsl(0, 0%, 30%);
+    border-style: solid;
+    border-width: 5px; 
+    border-color: hsl(0, 0%, 30%);
+}
+
 .reveal h3 {
   font-size: 1.3em; }
 
@@ -319,7 +326,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   align-items: center;
   background-color: hsl(36, 100%, 30%);
    border-radius: 15px; 
-  margin: 1em;
+  margin: 0.5em;
   height: 40px;
   line-height: 40px; 
 }
