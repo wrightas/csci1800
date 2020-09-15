@@ -296,7 +296,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #191919; } }
+    background-color: #191919; }
+  .slide-background {
+     background-color: #191919 !important;
+     -webkit-print-color-adjust: exact; 
+    }}
 
 
 /* Additions ************/
