@@ -90,6 +90,9 @@
             var str = file.name;
             if ( str.search("html") != -1 ) {
           htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
+        }
+            if ( str.search("pdf") != -1 ) {
+          htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
         }}
         htmlString += '</ul>';
         document.getElementsByName('m0list')[0].innerHTML = htmlString;
@@ -112,6 +115,9 @@
             if ( str.search("html") != -1 ) {
           htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
         }
+            if ( str.search("pdf") != -1 ) {
+          htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
+        }
         }
         htmlString += '</ul>';
         document.getElementsByName('m1list')[0].innerHTML = htmlString;
@@ -132,7 +138,11 @@
             var str = file.name;
             if ( str.search("html") != -1 ) {
           htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
-        }}
+        }
+            if ( str.search("pdf") != -1 ) {
+          htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
+        }
+        }
         htmlString += '</ul>';
         document.getElementsByName('m2list')[0].innerHTML = htmlString;
       })()
@@ -152,7 +162,11 @@
             var str = file.name;
             if ( str.search("html") != -1 ) {
           htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
-        }}
+        }
+            if ( str.search("pdf") != -1 ) {
+          htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
+        }
+        }
         htmlString += '</ul>';
         document.getElementsByName('m3list')[0].innerHTML = htmlString;
       })()
@@ -171,6 +185,9 @@
         for (let file of data) {
             var str = file.name;
             if ( str.search("html") != -1 ) {
+          htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
+        }
+            if ( str.search("pdf") != -1 ) {
           htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
         }}
         htmlString += '</ul>';
