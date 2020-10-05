@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Welcome to Unit 2!</title>
+		<link rel="stylesheet" href="../dist/reset.css">
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/aswLecture.css" id="theme">
+        <!-- Stylesheet for reveal-a11y accessibility plugin -->
+        <link rel="stylesheet" href="../plugin/accessibility/helper.css">
+		<!-- Theme used for syntax highlighted code -->
+<!--
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+-->
+        <style>
+            figcaption{font-size: 20px;}
+        </style>
+	</head>
+	<body>
+        <noscript>JavaScript is required to view the slides. <a href="https://g.aaronswright.com/">Back to CSCI1800 Slides.</a></noscript>
+		<div class="reveal">
+			<div class="slides">
+                <section data-background-image="../img/IMG_E2885.jpeg" data-background-opacity="0.7">
+    <div style="background-color: rgba(0, 0, 0, 0.5); background-clip: padding-box; border: 10px; border-style:solid; border-color: rgba(0, 0, 0, 0.5);"><h2> Welcome to Unit 2:<br> Creating the Computer</h2></div>
+        <blockquote style="background: rgba(0, 0, 0, 0.5)">CSCI1800<br>Dr. Aaron Sidney Wright<br><a rel="external" href="mailto:asw@dal.ca">asw@dal.ca</a></blockquote>
+        <img style="background: rgba(0, 0, 0, 0.5)" src="../img/DALFullMark-Gd.png" width="326px" alt="Dalhousie University logo">
+                </section>
+                <section>
+                <h2 id="title">Agenda</h2>
+                    <ol>
+                    <li>Overview of Unit 2</li>
+                    <li>Essay Topic 1: Schools and Education</li>
+                    <li>Essay Topic 2: Connect to Civil Rights</li>
+                    <li>Essay Topic 3: Connect to Entrepreneurs</li>
+                    </ol>
+                    <p>Use these slides on your own: <a href="https://g.aaronswright.com/" target="_blank">https://g.aaronswright.com/</a>.</p>
+                </section>
+<!--Start vertical What is Unit 2 about--> <section><!--Start vertical -->
+                <section>
+                    <h2 id="title">Overview of Unit 2</h2>
+                    <p>Use the Schedule in the <a href="https://dal.brightspace.com/d2l/le/content/130471/viewContent/1846988/View">Course Syllabus</a> <br>(BrightSpace / Pulse Calendar is incomplete) </p>
+                <iframe title="Weekly schedule for CSCI1800 Spreadsheet" style="width: 80%; min-height: 500px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhc0N8z3eIVvYFzP9qNpCbiv6OlsjKBG8d8zYE3TZdIh4cTtUvQClZWK-Ohxm2-Zpr3775stS704bX/pubhtml?gid=212640388&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                    </section>
+                <section data-auto-animate>
+                    <h2 id="title">Unit 2 Due Dates</h2>
+                        <h3>Recall: the Writing Process</h3>
+                    <div id="container">
+                <div id="col">
+                    <h4 id="box">Invention</h4>
+                    </div>
+                    <div id="col">
+                    <h4 id="box">Organization</h4>
+                    </div>
+                    <div id="col">
+                    <h4 id="box">Composition</h4>
+                    </div>
+                    <div id="col">
+                    <h4 id="box">Revision</h4>
+                    </div>
+                </div>
+                    <ul>
+                    <li>5pm Tues. 6.10.20: Team Plan Unit 2</li>
+                    <li>6pm Wed. 14.10.20: Thesis Development Short Exercise</li>
+                    <li>5pm Mon. 19.10.20: Essay Draft</li>
+                    <li>5pm Wed. 21.10.20: Peer-review Comments</li>
+                    <li>5pm Fri. 23.10.20: Unit 2 Final Essay</li>
+                    </ul>
+                    </section>
+                <section data-auto-animate>
+                    <h2 id="title">Unit 2 Submissions</h2>
+                    <ul>
+                    <li>5pm Tues. 6.10.20: Team Plan Unit 2</li>
+                        <ul><li style="color: hsl(37, 100%, 42%)">Group Assignment</li></ul>
+                    <li>6pm Wed. 14.10.20: Thesis Development Short Exercise</li>
+                        <ul><li style="color: hsl(37, 100%, 42%)">Individual Assignment</li></ul>
+                    <li>5pm Mon. 19.10.20: Essay Draft</li>
+                        <ul><li style="color: hsl(37, 100%, 42%)">Start Discussion thread in T# Discussions > Unit 2: Post your Drafts and Peer Comments</li></ul>
+                    <li>5pm Wed. 21.10.20: Peer-review Comments</li>
+                        <ul><li style="color: hsl(37, 100%, 42%)">Reply in T# Discussions > Unit 2: Post your Drafts and Peer Comments</li></ul>
+                    <li>5pm Fri. 23.10.20: Unit 2 Final Essay</li>
+                        <ul><li style="color: hsl(37, 100%, 42%)">Individual Assignment</li></ul>
+                    </ul>
+                    </section>
+                <section>
+                    <h2 id="title">Unit 2 Readings</h2>
+                    <span><img style="width:200px;" alt="Book cover for Campbell-Kelly et al. (2014) Computer: A history of the information machine" src="../img/Unit0/CampbellKellyEtAl.jpg"></span>  <span><img style="width:200px;" alt="Book cover for Charleton McIlwain (2020) Black Software: The Internet and Racial Justice from the AfroNet to Black Lives Matter" src="../img/Unit0/McIlwainBlackSoftware.jpg"></span>
+                <p>Campbell-Kelly et al. (2014), <a href="https://search-credoreference-com.ezproxy.library.dal.ca/content/entry/16384824" xmlns:xlink="http://www.w3.org/1999/xlink">Chapter 4: Inventing the Computer</a>, <a href="https://search-credoreference-com.ezproxy.library.dal.ca/content/entry/16384826" xmlns:xlink="http://www.w3.org/1999/xlink">Chapter 5: The Computer Becomes a Business Machine</a>, <a href="https://search-credoreference-com.ezproxy.library.dal.ca/content/entry/16384825" xmlns:xlink="http://www.w3.org/1999/xlink">PHOTOS: From Babbage's Difference Engine to System/360</a> and&nbsp;<a href="https://dal.brightspace.com/d2l/le/content/130471/viewContent/1838463/View" target="_self">Chapter 2: The Tech School Route </a> from McIlwain (2020) <em>Black Software</em>.</p>
+                </section>
+                <section>
+                    <h2 id="title">Unit 2: Events, People, Inventions</h2>
+                    <ul>
+                    <li>Time period: 1940s to 1960s</li>
+                    <li>New machines: ENIAC, EDSAC, UNIVAC</li>
+                    <li>Innovations: Electronics, Architecture, Code</li>
+                    <li>New jobs: Programmer, Customer Engineer</li>
+                    <li>New computerized businesses</li>
+                    </ul>
+                </section>
+                <section data-background-iframe="https://www.youtube.com/embed/bGk9W65vXNA?start=61&autoplay=1&rel=0&mute=1">
+                <h2 class="fragment" id="title">2. Electronics </h2>
+                <div class="fragment"><blockquote style="background: rgba(0, 0, 0, 0.5)">The development of modern computing
+                    </blockquote>
+                    </div>
+                    <blockquote class="fragment" style="background: rgba(0, 0, 0, 0.5)">The people, the machines, and the companies that shaped computing during and after World War II. The ENIAC
+                    </blockquote>
+                </section> 
+                <section data-background-iframe="https://www.youtube.com/embed/6v4Juzn10gM?start=223&autoplay=1&rel=0&mute=1">
+                <h2 class="fragment" id="title">2. Modern Architecture</h2>
+                    
+                <div class="fragment"><blockquote style="background: rgba(0, 0, 0, 0.5)">The first useful Stored-Program electronic computer, the EDSAC
+                    </blockquote>
+                    </div>
+                </section>
+                <section data-background-image="../img/Unit2/ToHareIsHuman.jpeg">
+                <h2 style="visibility: hidden" id="title">2. Commercial Computers</h2>
+                        <blockquote class="fragment" style="background: rgba(0, 0, 0, 0.5)">The first commercial computer, UNIVAC. <br>Co-starred in "To Hare is Human" Merrie Melodies (1956)</blockquote>
+                    <img class="fragment" style="max-width: 80%" alt="Eckert-Mauchly Computer Corp Business card, listing UNIVAC and BINAC" src="../img/Unit2/Eckert-MauchlyComputerCorp.png">
+                </section>
+                <section>
+                <h2 id="title">2. UNIVAC</h2>
+                    <figure >
+                    <img style="max-width: 60%" src="../img/Unit2/univacphoto.jpeg" alt="Photograph of two young men, one African American one white, seated at the console of the US Census UNIVAC"><figcaption>A UNIVAC computer at the <a href="https://www.census.gov/history/www/innovations/technology/univac_i.html">US Census Bureau</a>, ca. 1960.</figcaption>
+                    </figure>
+                </section>
+                <section>
+                <h2 id="title">2. Who is History About?</h2>
+                    <div class="r-stack">
+                    <figure class="fragment fade-out">
+                    <img  src="../img/Unit2/JohnWMauchlyAndJPresperEckert.jpeg" alt="Photograph of the ENIAC with Eckert and Mauchly at centre, with men and women at edges">
+                    <figcaption><a href="https://www.fi.edu/case-files/mauchly-and-eckert">Photograph</a> of the ENIAC with Eckert and Mauchly at centre, with men and women at edges</figcaption>
+                        </figure>
+  <figure class="fragment current-visible"><img alt="ENIAC (1946) being programmed by Betty Jennings (Left) and Frances Bilas (Right)" src="../img/Unit2/BettyJenningsFrancesBilasENIAC.png">
+      <figcaption>ENIAC (1946) being programmed by Betty Jennings (Left) and Frances Bilas (Right)</figcaption>
+                        </figure>
+                    <figure class="fragment"  style="display: flex"  >
+  <img src="../img/Unit2/WeavingCoreMemory.jpeg" style="max-width: 40%" alt=""><figcaption><br>An unknown woman builds core memory in the late 1960s. Photograph from a Raytheon Apollo 11 Press Kit. The original caption described her as a “space age needleworker.” (<a href="https://www.technologystories.org/making-core-memory/">Shorey and Rosner, 2019</a>)</figcaption></figure>
+</div>
+                </section>
+                <section>
+                <h2 id="title">Agenda</h2>
+                    <ol>
+                    <li>Overview of Unit 2</li>
+                    <li>Essay Topic 1: Schools and Education</li>
+                    <li>Essay Topic 2: Connect to Civil Rights</li>
+                    <li>Essay Topic 3: Connect to Entrepreneurs</li>
+                    </ol>
+                    <p>Use these slides on your own: <a href="https://g.aaronswright.com/" target="_blank">https://g.aaronswright.com/</a>.</p>
+                </section>
+                </section> <!--End vertical -->
+<!--vertical Essay 1 -->        <section>
+                <section data-background-image="../img/IMG_E2885.jpeg" data-background-opacity="0.7">
+    <div style="background-color: rgba(0, 0, 0, 0.5); background-clip: padding-box; border: 10px; border-style:solid; border-color: rgba(0, 0, 0, 0.5);"><h2> Essay Topic 1: Schools and Education</h2></div>
+        <blockquote style="background: rgba(0, 0, 0, 0.5)">Unit 2 CSCI1800<br>Dr. Aaron Sidney Wright<br><a rel="external" href="mailto:asw@dal.ca">asw@dal.ca</a></blockquote>
+        <img style="background: rgba(0, 0, 0, 0.5)" src="../img/DALFullMark-Gd.png" width="326px" alt="Dalhousie University logo">
+                </section>
+                <section>
+                <h2 id="title">Essay Topics</h2>
+              <p>Each essay topic has three parts:</p>
+                    <ol>
+                    <li>Historical background</li>
+                    <li>Core essay instruction</li>
+                    <li>Required sources</li>
+                    </ol>
+                </section>
+                <section>
+                <h2 id="title">Historical Background</h2>
+                <div id="container">
+                <div id="col">
+                    <figure>
+                    <img alt="Exerior sepiatone photograph of the Moore School building" src="../img/Unit2/MooreSchool1940.jpeg"><figcaption>Moore School of Electrical Engineering (<a href="https://www.computerhistory.org/revolution/birth-of-the-computer/4/88/362">U Penn</a>) around 1940.</figcaption>
+                        </figure>
+                    </div>
+                <div id="col">
+                    <figure>
+                    <img style="max-width: 75%" alt="Ad for DeVry Techncial Institute, headline reads: Profitable Jobs In... ELECTRONICS AS USED IN GUIDED MISSILES TELEVISION - RADAR - MICRO-WAVES, ETC" src="../img/Unit2/DeVryAd1958.jpeg"><figcaption>Ad for DeVry Technical Institute (<a href="http://blog.modernmechanix.com/profitable-jobs-in-electronics-as-used-in-guided-missiles-television-radar-micro-waves-etc/">1958</a>).</figcaption>
+                        </figure></div>
+                </div>
+                    <aside class="notes">Educational institutions were critical to the development of modern computers and the creation of the modern technology workforce. One example was the Moore School at the University of Pennsylvania. EDSAC was built at Cambridge University. Other examples were the technical schools that William Murrell used to start a career in computing.</aside>
+                </section>
+                <section>
+                <h2 id="title">Essay Topic 1: Core Instuction</h2>
+
+<p>In an essay of between 675 and 825 words, <span style="color: chartreuse"> assess the role  of educational institutions </span> in the history of computing discussed in the Unit 2 readings.  Your essay should address one of these questions:</p>
+                    <ul>
+                        <li>Were educational institutions the most important factor in the history of computing?</li>
+                        <li> Or, compare the Moore School to DeVry technical college: how were they similar and how were they different?</li>
+                    </ul>
+                    </section>
+                <aside class="notes">In an essay of between 675 and 825 words, <span style="color: chartreuse"> assess the role </span> of educational institutions in the history of computing discussed in the Unit 2 readings. When you assess a role, you evaluate it, or judge it. Your essay should address one of these questions: Were educational institutions the most important factor in the history of computing? Or, compare the Moore School to DeVry technical college: how were they similar and how were they different?</aside>
+                <section>
+                <h2 id="title">Essay Topic 1: Required Sources</h2>
+                <p>Your essay must use the McIlwain (2020) chapter and at least one chapter out of Campbell-Kelly et al. (2014) chapters 4 and 5.</p>
+                <span><img style="width:200px;" alt="Book cover for Campbell-Kelly et al. (2014) Computer: A history of the information machine" src="../img/Unit0/CampbellKellyEtAl.jpg"></span>  <span><img style="width:200px;" alt="Book cover for Charleton McIlwain (2020) Black Software: The Internet and Racial Justice from the AfroNet to Black Lives Matter" src="../img/Unit0/McIlwainBlackSoftware.jpg"></span>
+                    <p>Note: in the McIlwain reading, paragraphs set entirely in <span style="font-family: EBGaramond; font-style: italic">italic type</span> are quotes.</p>
+                </section>
+                <section>
+                <h2 id="title">Essay Topic 1: Schools and Education</h2>
+                <div id="container">
+                <div id="col">
+              <p>Each essay topic has three parts:</p>
+                    <ol>
+                    <li>Historical background</li>
+                    <li>Core essay instruction</li>
+                    <li>Required sources</li>
+                    </ol>
+                    </div>
+                <div id="col">
+                    <figure>
+                    <img style="max-width: 75%" alt="Ad for DeVry Techncial Institute, headline reads: Profitable Jobs In... ELECTRONICS AS USED IN GUIDED MISSILES TELEVISION - RADAR - MICRO-WAVES, ETC" src="../img/Unit2/DeVryAd1958.jpeg">
+                        </figure></div>
+                </div>
+                </section>
+                    </section><!-- End vertical OutlineIntroducitons -->
+<!--Vertical Essay 2 --><section>
+                <section data-background-image="../img/IMG_E2885.jpeg" data-background-opacity="0.7">
+    <div style="background-color: rgba(0, 0, 0, 0.5); background-clip: padding-box; border: 10px; border-style:solid; border-color: rgba(0, 0, 0, 0.5);"><h2> Essay Topic 2: Connect to Civil Rights</h2></div>
+        <blockquote style="background: rgba(0, 0, 0, 0.5)">Unit 2 CSCI1800<br>Dr. Aaron Sidney Wright<br><a rel="external" href="mailto:asw@dal.ca">asw@dal.ca</a></blockquote>
+        <img style="background: rgba(0, 0, 0, 0.5)" src="../img/DALFullMark-Gd.png" width="326px" alt="Dalhousie University logo">
+                </section>
+                <section>
+                <h2 id="title">Essay Topics</h2>
+              <p>Each essay topic has three parts:</p>
+                    <ol>
+                    <li>Historical background</li>
+                    <li>Core essay instruction</li>
+                    <li>Required sources</li>
+                    </ol>
+                </section>
+                <section>
+                <h2 id="title">Historical Background</h2>
+                <div id="container">
+                <div id="col">
+                    <figure>
+                    <img alt="Photograph of William Murrell in a business suit, talking on the phone while typing at a computer" src="../img/Unit2/William-Murrell-1.jpeg"><figcaption>William Murrell, engineer and entrepreneur  (<a href="https://www.blackpast.org/african-american-history/william-murrell-1955/">1990</a>).</figcaption>
+                        </figure>
+                    </div>
+                <div id="col">
+                    <figure>
+                     <img src="../img/Unit2/WeavingCoreMemory.jpeg" style="max-width: 75%" alt="Photograph of an African American woman in profile. She is assembling a magnetic core memory unit"><figcaption>An unknown woman builds core memory in the late 1960s, from a Raytheon Apollo 11 Press Kit. (<a href="https://www.technologystories.org/making-core-memory/">Shorey and Rosner, 2019</a>)</figcaption>
+                        </figure></div>
+                </div>
+                    <aside class="notes">Chapter 2 of Charleton McIlwain's Black Software tells the story of William Murrell, an African American engineer at IBM. Murrell's story reveals some of the promise of tech work to provide equitable employment; it also reveals some of the failings of tech work. <br>This material is at the heart of this course. We need to understand how computing technology can be a force for positive change in the world. But we also need to understand how computing technology has done people harm.</aside>
+                </section>
+                <section>
+                <h2 id="title">Historical Background: Civil Rights</h2>
+                <div id="container">
+                <div id="col">
+                    <figure>
+                     <img src="../img/Unit2/King_in_the_Wilderness.png" style="max-width: 75%" alt="Poster for HBO's film King in the Wilderness featuring image of King from behind while speaking at a rally."><figcaption><a href="https://ezproxy.library.dal.ca/login?url=https://fod-infobase-com.ezproxy.library.dal.ca/PortalPlaylists.aspx?wID=106275&xtid=148962">https://ezproxy.library.dal.ca/login?url=https://fod-infobase-com.ezproxy.library.dal.ca/PortalPlaylists.aspx?wID=106275&xtid=148962</a></figcaption>
+                        </figure>
+                    </div>
+                <div id="col">
+                    <span><strong>The US Civil Rights Movement</strong></span>
+                    <ul>
+                    <li>Struggle for social justice by and for African Americans (mostly 1950s and 60s)</li>
+                    <li> Laws: Civil Rights Acts: 1957, 1960, <span style="color: chartreuse"> 1964 (employment)</span>, 1968 (housing), Voting Rights Act 1965. 24th Amendment to US Consitution</li>
+                    <li> Court decisions: Brown v Board of Education (1954), Loving v Virginia (1967)</li>
+                    <li>Overview: <a href="https://en.wikipedia.org/wiki/Civil_rights_movement">Wikipedia</a> </li>
+                    </ul>
+                    </div>
+                </div>
+                    <aside class="notes">The background for these development is the United States Civil Rights Movement.</aside>
+                </section>
+                <section>
+                <h2 id="title">Historical Background</h2>
+                <div id="container">
+                <div id="col">
+                    <figure>
+                    <img style="max-width: 75%" alt="Cover of Ebony Magazine showing a promotional photograph for a film with Dr. Martin Luther King, Jr. in profile" src="../img/Unit2/EbonyDec1970Cover.png"><figcaption>The December 1970 cover of Ebony Magazine showing Civil Rights leader Dr. Martin Luther King, Jr., who was assassinated in 1968.</figcaption>
+                        </figure>
+                    </div>
+                <div id="col">
+                    <figure>
+                     <img src="../img/Unit2/IBMequalAd.png" style="max-width: 75%" alt="IBM ad with a photograph of Proctor Houston standing in a business suit, talking to colleagues. Tagline reads: Proctor Houston parked cars to earn his B.A. Now he's managing 9 salesmen at IBM"><figcaption>IBM Equal Opportunity Employer recruitment ad from Ebony Magaine, Dec 1970</figcaption>
+                        </figure></div>
+                </div>
+                    <aside class="notes">Chapter 2 of McIlwain (2020) tells the story of William Murrell, an African American engineer at IBM. Murrell's story reveals some of the promise of tech work to provide equitable employment; it also reveals some of the failings of tech work.</aside>
+                </section>
+                <section>
+                <h2 id="title">Historical Background</h2>
+                <div id="container">
+                <div id="col">
+                    <figure>
+                    <img alt="Photograph of William Murrell in a business suit, talking on the phone while typing at a computer" src="../img/Unit2/William-Murrell-1.jpeg"><figcaption>William Murrell, engineer and entrepreneur  (<a href="https://www.blackpast.org/african-american-history/william-murrell-1955/">1990</a>).</figcaption>
+                        </figure>
+                    </div>
+                <div id="col">
+                    <figure>
+                     <img src="../img/Unit2/WeavingCoreMemory.jpeg" style="max-width: 75%" alt="Photograph of an African American woman in profile. She is assembling a magnetic core memory unit"><figcaption>An unknown woman builds core memory in the late 1960s, from a Raytheon Apollo 11 Press Kit. (<a href="https://www.technologystories.org/making-core-memory/">Shorey and Rosner, 2019</a>)</figcaption>
+                        </figure></div>
+                </div>
+                    <aside class="notes">Chapter 2 of McIlwain (2020) tells the story of William Murrell, an African American engineer at IBM. Murrell's story reveals some of the promise of tech work to provide equitable employment; it also reveals some of the failings of tech work.</aside>
+                </section>
+                <section>
+                <h2 id="title">Essay Topic 2: Core Instuction</h2>
+
+                    <p>In an essay of between 675 and 825 words, compare Murrell's story and IBM history to a contemporary (twenty-first century) story about <a href="https://www.nytimes.com/article/what-is-bipoc.html"> Black, Indigenous, or People of Colour </a> experience working for a tech company. <span style="color: chartreuse">Assess what has changed from Murrell's time at IBM to today, and what has remained the same.</span></p>
+                    <p> When you assess a historical change, you evaluate it, or judge its quality: is it all different? mostly different? half way? mostly new? all new? </p>
+                    </section>
+                <section>
+                <h2 id="title">Essay Topic 2: Required Sources</h2>
+                <p>This question is about the past <em>and</em> it is about the present. In your essay, <strong>use material from McIlwain (2020)</strong> to provide data about the Civil Rights Era. Optionally, listen to an <a href="https://dal.brightspace.com/d2l/le/content/130471/viewContent/1961547/View" target="_self">interview with McIlwain</a>.</p>
+                <p> To provide data about BIPOC at a contemporary tech company, find one article about them. </p>
+                <p>The article must follow the guidelines in the syllabus. It must: be in English; be available to the teaching team; and be published in 2020 in a reputable publication (newspaper, magazine, broadcaster, try searching the Dal library for online access, <a href="https://novanet-primo.hosted.exlibrisgroup.com/permalink/f/auflpa/NOVANET_ALEPH001431448" target="_blank" rel="noopener">for example</a>). Each student writing this essay should find their own article.</p>
+                </section>
+                <section>
+                <h2 id="title">Essay Topic 2: Connect to Civil Rights</h2>
+                    <img style="max-width: 40%" alt="Photograph of William Murrell in a business suit, talking on the phone while typing at a computer" src="../img/Unit2/William-Murrell-1.jpeg">
+              <p>Each essay topic has three parts:</p>
+                    <ol>
+                    <li>Historical background</li>
+                    <li>Core essay instruction</li>
+                    <li>Required sources</li>
+                    </ol>
+                </section>
+                </section> <!-- End Vertical -->
+                <!--Vertical Essay 3 --><section>
+                <section data-background-image="../img/IMG_E2885.jpeg" data-background-opacity="0.7">
+    <div style="background-color: rgba(0, 0, 0, 0.5); background-clip: padding-box; border: 10px; border-style:solid; border-color: rgba(0, 0, 0, 0.5);"><h2> Essay Topic 3: Connect to Entrepreneurs</h2></div>
+        <blockquote style="background: rgba(0, 0, 0, 0.5)">Unit 2 CSCI1800<br>Dr. Aaron Sidney Wright<br><a rel="external" href="mailto:asw@dal.ca">asw@dal.ca</a></blockquote>
+        <img style="background: rgba(0, 0, 0, 0.5)" src="../img/DALFullMark-Gd.png" width="326px" alt="Dalhousie University logo">
+                </section>
+                <section>
+                <h2 id="title">Essay Topics</h2>
+              <p>Each essay topic has three parts:</p>
+                    <ol>
+                    <li>Historical background</li>
+                    <li>Core essay instruction</li>
+                    <li>Required sources</li>
+                    </ol>
+                </section>
+                <section>
+                <h2 id="title">Historical Background</h2>
+                    <figure>
+                        <span><img alt="B&W. Name listing at bottom of image: 'Eckert-Mauchly Computer Corp. Engineering Group - 1949. Row 1: Fran Morello, Bob Shaw, Pres Eckert, Brad Sheppard, Frazer Welsh, John Mauchly, Jim Weiner, Al Auerbach, Betty Synder; Row 2: John Sims, Marv Jacoby, Paul Winsor, Gerry Smoliar, Art Gehring, Betty Jay, Ed Blumenthal, Bob Mock, Jean Bartik, Herman Lukoff, Bernie Gordon, Ned Schreiner; row 3: George Gingrich, Marv Gottlieb, Lou Wilson, Doug Wendell, Charlie Michaels, Ben Stad, Si Levitt, Larry Jones.'" src="../img/Unit2/EckertMauchlyEngineerGrp.jpg"></span>
+                        <span style="vertical-align: top"><img style="max-width: 40%" alt="Eckert-Mauchly Computer Corp Business card, listing UNIVAC and BINAC" src="../img/Unit2/Eckert-MauchlyComputerCorp.png"></span>
+                        <figcaption>"Eckert-Mauchly Computer Corp. Engineering Group - 1949. Row 1: Fran Morello, Bob Shaw, <span style="color: chartreuse">Pres Eckert</span>, Brad Sheppard, Frazer Welsh, <span style="color: chartreuse">John Mauchly</span>, Jim Weiner, Al Auerbach, Betty Synder; Row 2: John Sims, Marv Jacoby, Paul Winsor, Gerry Smoliar, Art Gehring, Betty Jay, Ed Blumenthal, Bob Mock, Jean Bartik, Herman Lukoff, Bernie Gordon, Ned Schreiner; row 3: George Gingrich, Marv Gottlieb, Lou Wilson, Doug Wendell, Charlie Michaels, Ben Stad, Si Levitt, Larry Jones."  (<a href="https://www.computerhistory.org/collections/catalog/102707265">CHM</a>).</figcaption>
+                        </figure>
+                    <aside class="notes"></aside>
+                </section>
+                <section>
+                <h2 id="title">Historical Background</h2>
+                    <figure>
+                     <img src="../img/Unit2/EMCCbusinessPlanCHM1.jpg" style="max-width: 35%" alt="The document was created in 1946 by Eckert and Mauchly after they resigned from the University of Pennsylvania Moore School of Engineering, five weeks after unveiling the ENIAC. This is the first instance of the creation of a business plan to commercially sell electronic computers. The first three pages of the document describe their new company's object, which was 'to design and develop a multi-purpose rapid computing machine of moderate cost' (p.1) for use in both scientific and business environments. They conjectured that they would be able to market such a machine for less than $30,000. Page four lists five company names then under consideration (Electronic Control Company is second); this is followed by the company's 'Statement of Purpose,' and by a three page list, of 'the extend and variety of devices and equipment which are now foreseen as subjects of possible developments or improvement by the engineering and research work of the proposed company.."><img src="../img/Unit2/EMCCbusinessPlanCHM2.jpg" style="max-width: 35%" alt="Page two of the business plan">
+                        <figcaption>Initial Eckert-Mauchly Computer Corporation Business Plan, 1946 <a href="https://www.computerhistory.org/collections/catalog/102660910">(CHM)</a></figcaption>
+                        </figure>
+                    <aside class="notes">Possible users: 1. Scientific Laboratories, universities, and research foundations. 2. Industrial Research and Engineering laboratories. 3. The US Census Bureau. 4. The US Weather Bureau. 5. Other government agencies. 6. Astronomical Observatories. 7. Accounting and bookkeeping departments of large business firms. 8. Inventory, stock control, and planning departments of large business firms. 9. Agencies having voluminous files and records, libraries, social security offices, etc. 10. Insurance companies, both for records and actuarial work.</aside>
+                </section>
+                <section>
+                <h2 id="title">Essay Topic 3: Core Instuction</h2>
+                    <p>In an essay of between 675 and 825 words, compare Eckert and Mauchly's history to a contemporary (twenty-first century) story about tech entrepreneurs. <span style="color: chartreuse">Assess the degree to which Eckert and Mauchly's history is the same or different to a contemporary case. </span> Consider at least one of the following aspects of their story:</p>
+                    <ul>
+                        <li>Their relationship to the government and the military;</li>
+                        <li>Their relationship to academics and researchers; or </li>
+                        <li>Their relationship to established companies, like IBM or Remington Rand.</li>
+                    </ul>
+                    </section>
+                <section>
+                <h2 id="title">Essay Topic 3: Required Sources</h2>
+                <p>This question is about the past <em>and</em> it is about the present. 
+                    Your essay <strong>must</strong> use at least one chapter out of the Campbell-Kelly et al. (2014) chapters 4 and 5.</p>
+                <p> To provide data about an entrepreneur (or entrepreneurs) at a contemporary tech company, find one article about them.</p>
+                <p>The article must follow the guidelines in the syllabus. It must: be in English; be available to the teaching team; and be published in 2020 in a reputable publication (newspaper, magazine, broadcaster, try searching the Dal library for online access, <a href="https://novanet-primo.hosted.exlibrisgroup.com/permalink/f/auflpa/NOVANET_ALEPH001431448" target="_blank" rel="noopener">for example</a>). Each student writing this essay should find their own article.</p>
+                </section>
+                <section>
+                <h2 id="title">Essay Topic 3: Connect to Entrepreneurs</h2>
+                    <span style="vertical-align: top"><img style="max-width: 40%" alt="Eckert-Mauchly Computer Corp Business card, listing UNIVAC and BINAC" src="../img/Unit2/Eckert-MauchlyComputerCorp.png"></span>
+              <p>Each essay topic has three parts:</p>
+                    <ol>
+                    <li>Historical background</li>
+                    <li>Core essay instruction</li>
+                    <li>Required sources</li>
+                    </ol>
+                </section>
+                
+                </section> <!-- End Vertical -->
+                <section data-background-image="../img/IMG_2931.jpeg" data-background-opacity="0.7">
+    <h2> Thank you for watching!</h2>  
+        <p>Dr. Aaron Sidney Wright</p>
+        <p>CSCI1800 Fall 2020</p>
+                    <p>Use these slides on your own: <a href="https://g.aaronswright.com/">https://g.aaronswright.com/</a>. </p>
+        <img style="background: rgba(0, 0, 0, 0.5)" src="../img/DALFullMark-Gd.png" width="326px" alt="Dalhousie University logo">
+                </section>
+                   <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
+<!--                <section data-markdown="markdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" "^Note:"></section>-->
+			</div>
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+		<script src="../plugin/notes/notes.js"></script>
+        <script src="../plugin/markdown/markdown.js"></script>
+<!--		<script src="plugin/highlight/highlight.js"></script>-->
+        <script src="../plugin/search/search.js"></script>
+        <script src="../plugin/zoom/zoom.js"></script>        
+        <script src="../plugin/math/math.js"></script> 
+        <script>
+// More info https://github.com/hakimel/reveal.js#configuration
+            //Initialize for reveal-a11y accessibility plugin
+            Reveal.initialize({
+	           dependencies: [
+                { src: '../plugin/accessibility/helper.js', async: true, condition: function() { 
+                	return !!document.body.classList; 
+                } 
+            }
+               ],
+              //  });
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			//Reveal.initialize({
+                markdown: {
+                    smartypants: true,
+                    smartLists: true
+                },
+                slideNumber: true,
+				hash: true,
+                center: false,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, 
+//                    RevealHighlight, 
+                          RevealNotes, RevealMath, RevealSearch, RevealZoom ]
+			});
+		</script>
+	</body>
+</html>
